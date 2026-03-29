@@ -1,0 +1,233 @@
+ZADATAK 1
+
+alen@DESKTOP-1G150VO:~>git clone https://github.com/aselimovi/OS-vjezbe.git                    
+alen@DESKTOP-1G150VO:~> cd OS-vjezbe/
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+alen@DESKTOP-1G150VO:~/OS-vjezbe> mkdir vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> touch vjezba_2/.gitkeep
+alen@DESKTOP-1G150VO:~/OS-vjezbe> git add .
+alen@DESKTOP-1G150VO:~/OS-vjezbe> git commit -m "Rijesen zadatak 1"
+[main 282e0a4] Rijesen zadatak 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 vjezba_2/.gitkeep
+alen@DESKTOP-1G150VO:~/OS-vjezbe> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (4/4), 293 bytes | 293.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0 (from 0)
+To github.com:aselimovi/OS-vjezbe.git
+   f2c34ba..282e0a4  main -> main
+alen@DESKTOP-1G150VO:~/OS-vjezbe> 
+
+ZADATAK 2
+
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cd
+alen@DESKTOP-1G150VO:~> ls
+OS-vjezbe  vjezba_2.txt
+alen@DESKTOP-1G150VO:~> cd OS-vjezbe/
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> mkdir vjezba_2/data
+alen@DESKTOP-1G150VO:~/OS-vjezbe> mkdir vjezba_2/backup
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls -l
+total 4
+drwxr-xr-x 4 alen alen 4096 Mar 29 11:28 vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> touch vjezba_2vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+touch: cannot touch 'vjezba_2vjezba_2/data/script.js': No such file or directory
+alen@DESKTOP-1G150VO:~/OS-vjezbe> touch vjezba_2 vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls vjezba_2/
+backup  data
+alen@DESKTOP-1G150VO:~/OS-vjezbe> echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css
+alen@DESKTOP-1G150VO:~/OS-vjezbe> echo 'VJEZBE=OS' > vjezba_2/data/.env
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls vjezba_2/
+backup  data
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cat vjezba_2/data/script.js
+console.log("Hello, World!")
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cat vjezba_2/data/style.css
+body { background-color: #f0f0f0; }
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cat vjezba_2/data/.env
+VJEZBE=OS
+alen@DESKTOP-1G150VO:~/OS-vjezbe> 
+
+ZADATAK 3
+
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cd vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> ls
+backup  data
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> cp -rv data/. backup
+'data/./style.css' -> 'backup/./style.css'
+'data/./.env' -> 'backup/./.env'
+'data/./script.js' -> 'backup/./script.js'
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> cd data
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls
+script.js  style.css
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls -laS ../backup
+total 20
+drwxr-xr-x 2 alen alen 4096 Mar 29 11:34 .
+drwxr-xr-x 4 alen alen 4096 Mar 29 11:29 ..
+-rw-r--r-- 1 alen alen   36 Mar 29 11:34 style.css
+-rw-r--r-- 1 alen alen   29 Mar 29 11:34 script.js
+-rw-r--r-- 1 alen alen   10 Mar 29 11:34 .env
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+
+ZADATAK 4
+
+alen@DESKTOP-1G150VO:~/OS-vjezbe> ls
+vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe> cd vjezba_2
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> ls
+backup  data
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> cp -rv data/. backup
+'data/./style.css' -> 'backup/./style.css'
+'data/./.env' -> 'backup/./.env'
+'data/./script.js' -> 'backup/./script.js'
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2> cd data
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls
+script.js  style.css
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls -laS ../backup
+total 20
+drwxr-xr-x 2 alen alen 4096 Mar 29 11:34 .
+drwxr-xr-x 4 alen alen 4096 Mar 29 11:29 ..
+-rw-r--r-- 1 alen alen   36 Mar 29 11:34 style.css
+-rw-r--r-- 1 alen alen   29 Mar 29 11:34 script.js
+-rw-r--r-- 1 alen alen   10 Mar 29 11:34 .env
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> rm -vi script.js sytle.css
+rm: remove regular file 'script.js'? y
+removed 'script.js'
+rm: cannot remove 'sytle.css': No such file or directory
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> rm -vi script.js style.css
+rm: cannot remove 'script.js': No such file or directory
+rm: remove regular file 'style.css'? y
+removed 'style.css'
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls -lo
+total 0
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> cp -rnv ../backup/..
+cp: missing destination file operand after '../backup/..'
+Try 'cp --help' for more information.
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> cp -rnv ../backup/. .
+'../backup/./style.css' -> '././style.css'
+'../backup/./script.js' -> '././script.js'
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> ls -Alt1
+total 12
+-rw-r--r-- 1 alen alen 29 Mar 29 11:37 script.js
+-rw-r--r-- 1 alen alen 36 Mar 29 11:37 style.css
+-rw-r--r-- 1 alen alen 10 Mar 29 11:30 .env
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> tree -a
+.
+├── .env
+├── script.js
+└── style.css
+
+1 directory, 3 files
+alen@DESKTOP-1G150VO:~/OS-vjezbe/vjezba_2/data> 
+
+ZADATAK 5
+
+alen@DESKTOP-1G150VO:~> ls -laS
+total 76
+-rw-------  1 alen alen 8163 Mar 29 10:49 .bash_history
+drwx------ 12 alen alen 4096 Mar 29 11:18 .
+dr-xr-xr-x  3 root root 4096 Mar 17 19:40 ..
+drwx------  3 alen alen 4096 Mar 21 12:48 .cache
+drwx------  2 alen alen 4096 Sep 24  2025 .config
+drwx------  3 alen alen 4096 Mar 21 12:48 .copilot
+drwxr-xr-x  3 alen alen 4096 Mar 21 12:52 .dotnet
+drwxr-xr-x  7 alen alen 4096 Mar 29 11:47 .git
+drwx------  5 alen alen 4096 Jan  5 14:39 .local
+drwxr-xr-x  4 alen alen 4096 Mar 29 11:18 OS-vjezbe
+drwx------  3 alen alen 4096 Mar 17 19:57 .ssh
+drwxr-xr-x  4 alen alen 4096 Mar 21 12:48 .vscode-remote-containers
+drwxr-xr-x  5 alen alen 4096 Mar 21 12:48 .vscode-server
+-rw-r--r--  1 alen alen 1637 Nov 11 10:25 .emacs
+-rw-r--r--  1 alen alen  861 Nov 11 10:25 .inputrc
+-rw-r-----  1 alen alen  856 Dec 11 11:00 .profile
+-rw-r-----  1 alen alen  604 Dec 11 11:00 .bashrc
+-rw-r--r--  1 alen alen   61 Mar 17 19:54 .gitconfig
+-rw-r--r--  1 alen alen    0 Mar 29 10:53 vjezba_2.txt
+alen@DESKTOP-1G150VO:~> ls -lhS
+total 4.0K
+drwxr-xr-x 4 alen alen 4.0K Mar 29 11:18 OS-vjezbe
+-rw-r--r-- 1 alen alen    0 Mar 29 10:53 vjezba_2.txt
+alen@DESKTOP-1G150VO:~> tree -a
+│       │   │   ├── index.js
+    │       │   │   ├── LICENSE
+    │       │   │   └── package.json
+    │       │   ├── yazl
+    │       │   │   ├── index.js
+    │       │   │   ├── LICENSE
+    │       │   │   └── package.json
+    │       │   └── zod
+    │       │       ├── index.cjs
+    │       │       ├── index.d.cts
+    │       │       ├── index.js
+    │       │       ├── LICENSE
+    │       │       ├── package.json
+    │       │       ├── v3
+    │       │       │   ├── errors.cjs
+    │       │       │   ├── errors.d.cts
+    │       │       │   ├── errors.js
+
+    │       │       │   │   ├── json-schema.cjs
+    │       │       │   │   ├── json-schema.d.cts
+    │       │       │   │   ├── json-schema.js
+    │       │       │   │   ├── parse.cjs
+    │       │       │   │   ├── parse.d.cts
+    │       │       │   │   ├── parse.js
+    │       │       │   │   ├── regexes.cjs
+    │       │       │   │   ├── regexes.d.cts
+    │       │       │   │   ├── regexes.js
+    │       │       │   │   ├── registries.cjs
+    │       │       │   │   ├── registries.d.cts
+    │       │       │   │   ├── registries.js
+    │       │       │   │   ├── schemas.cjs
+    │       │       │   │   ├── schemas.d.cts
+    │       │       │   │   ├── schemas.js
+    │       │       │   │   ├── standard-schema.cjs
+    │       │       │   │   ├── standard-schema.d.cts
+    │       │       │   │   ├── standard-schema.js
+    │       │       │   │   ├── to-json-schema.cjs
+    │       │       │   │   ├── to-json-schema.d.cts
+    │       │       │   │   ├── to-json-schema.js
+    │       │       │   │   ├── util.cjs
+    │       │       │   │   ├── util.d.cts
+    │       │       │   │   ├── util.js
+    │       │       │   │   ├── versions.cjs
+    │       │       │   │   ├── versions.d.cts
+    │       │       │   │   └── versions.js
+    │       │       │   ├── index.cjs
+    │       │       │   ├── index.d.cts
+    │       │       │   ├── index.js
+    │       │       │   ├── locales
+    │       │       │   │   ├── ar.cjs
+    │       │       │   │   ├── ar.d.cts
+    │       │       │   │   ├── ar.js
+    │       │       │   │   ├── az.cjs
+    │       │       │   │   ├── az.d.cts
+    │       │       │   │   ├── az.js
+    │       │       │   │   ├── be.cjs
+    │       │       │   │   ├── be.d.cts
+    │       │       │   │   ├── be.js
+    │       │       │   │   ├── ca.cjs
+    │       │       │   │   ├── ca.d.cts
+    │       │       │   │   ├── ca.js
+    │       │       │   │   ├── cs.cjs
+    │       │       │   │   ├── cs.d.cts
+    │       │       │   │   ├── cs.js
+    
