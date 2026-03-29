@@ -1,0 +1,607 @@
+    1  ls -l
+    2  sudo zypper refresh
+    3  sudo zypper update
+    4  sudo zypper install xclock
+    5  sudo zypper install git
+    6  git config --global user.name Alen
+    7  git config --global user.email aselimovi@student.unipu.hr
+    8  ssh-keygen -t ed25519 -C aselimovi@student.unipu.hr
+    9  ls -l
+   10  ssh-keygen -t ed25519 -C aselimovi@student.unipu.hr
+   11  cat ~/.ssh/id_ed25519.pub
+   12  git config --global user.name aselimovi
+   13  git config --global user.email aselimovi@student.unipu.hr
+   14  git config --list
+   15  ssh-keygen -t ed25519 -C aselimovi@student.unipu.hr
+   16  eval "$(ssh-agent -s)"
+   17  ssh-add ~/.ssh/id_ed25519
+   18  cat ~/.ssh/id_ed25519.pub
+   19  ssh -T git@github.com
+   20  cat ~/.ssh/id_ed25519.pub
+   21  ssh -T git@github.com
+   22  ls -l
+   23  git clone git@github.com:USERNAME/REPO.git
+   24  git clone https://github.com/USERNAME/REPO.git
+   25  cd
+   26  mkdir projects
+   27  cd projects
+   28  git clone git@github.com:aselimovi/REPO.git
+   29  git remote -v
+   30  ssh -T git@github.com
+   31  git clone git@github.com:aselimovi/REPO.git
+   32  git clone git@github.com:aselimovi/Projects.git
+   33  ls -l
+   34  ls Projects
+   35  mkdir Alen
+   36  ls Alen
+   37  ls -l
+   38  git@github.com:aselimovi/Projects.git
+   39  ssh git@github.com:aselimovi/Projects.git
+   40  rmdir Alen
+   41  ls -l
+   42  cd
+   43  bash shell
+   44  clear
+   45  pwd
+   46  ls -l
+   47  mkdir vjezba1
+   48  ls -l
+   49  cd projects
+   50  ls -l
+   51  cd Projects
+   52  ls -l
+   53  cd..
+   54  ls -l
+   55  bash
+   56  bash
+   57  pwd
+   58  ls -l
+   59  mkdir vjezba1
+   60  cd vjezba1
+   61  ls -l
+   62  sudo apt update
+   63  sudo apt install -y tar gzip
+   64  wsl -u root
+   65  sudo apt update
+   66  cat /proc/version
+   67  sudo apt update
+   68  sudo zypper install tar gzip
+   69  code .
+   70  pwd
+   71  ls -l
+   72  cd vjezba1
+   73  touch README.md
+   74  cd..
+   75  git@github.com:aselimovi/OS-vje-be.git
+   76  pwd
+   77  ls -l
+   78  mkdir vjezba1
+   79  cd vjezba 1
+   80  cd vjezba1
+   81  ls -l
+   82  mkdir vjezba2
+   83  touch vjezba2/file.txt
+   84  cp vjezba2/file.txt vjezba2/file_copy.txt
+   85  ls vjezba2
+   86  rm vjezba2/file.txt
+   87  cd..
+   88  rmdir vjezba2
+   89  direktorij nije prazan
+   90  mkdir vjezba3
+   91  mkdir vjezba3/backup
+   92  touch vjezba3/notes.txt 
+   93  touch vjezba3/todo.txt 
+   94  touch vjezba3/script.sh
+   95  ls -l
+   96  cd vjezba3
+   97  ls -l
+   98  cd..
+   99  cp vjezba3/* vjezba3/backup/
+  100  cp -r vjezba3/* vjezba3/backup/
+  101  cp vjezba3/* vjezba3/backup/
+  102  cd vjezba3
+  103  ls
+  104  cp vjezba3/* vjezba3/backup/
+  105  cp * backup/
+  106  cd..
+  107  cp vjezba3/* vjezba3/backup/
+  108  cp -r vjezba3/* vjezba3/backup/
+  109  cp vjezba3/* vjezba3/backup/ 
+  110  cp -r vjezba3/* vjezba3/backup/ 
+  111  cp ~/vjezba3/* ~/vjezba3/backup/
+  112  rm vjezba3/script.sh && ls vjezba3
+  113  mkdir vjezba3/backup/$USER
+  114  mv vjezba3/backup* vjezba3/backup/$USER/
+  115  mv vjezba3/backup/* vjezba3/backup/$USER/
+  116  ls -l
+  117  echo "# OS-vje-be" >> README.md
+  118  git init
+  119  git add README.md
+  120  git commit -m "first commit"
+  121  git branch -M main
+  122  git remote add origin git@github.com:aselimovi/OS-vje-be.git
+  123  git push -u origin main
+  124  ssh -T git@github.com
+  125  ls -l
+  126  cd README.md 
+  127  git@github.com:aselimovi/OS-vje-be.git
+  128  ssh git@github.com:aselimovi/OS-vje-be.git
+  129  ls -l
+  130  pwd
+  131  ls -l
+  132  ls vjezba1
+  133  clear
+  134  pwd
+  135  ls
+  136  rmdir vjezba1
+  137  rmdir - r vjezba1
+  138  cd vjezba1
+  139  ls -l
+  140  rm -r vjezba1
+  141  cd..
+  142  rm -r vjezba1
+  143  rm -r vjezba3
+  144  rm -r projects
+  145  rm -r README.md
+  146  ls
+  147  clear
+  148  pw
+  149  pwd
+  150  ls -l
+  151  mkdir vjezba1 && cd vjezba1
+  152  touch README.md
+  153  cd..
+  154  clear
+  155  mkdir vjezba2 && touch vjezba2/file.txt
+  156  ls
+  157  cp vjezba2/file.txt vjezba2/file_copy.txt
+  158  ls
+  159  ls vjezba2
+  160  cd vjezba2 && rm file.txt 
+  161  cd..
+  162  rmdir vjezba2
+  163  rm -r vjezba2
+  164  ls vjezba2
+  165  clear
+  166  mkdir vjezba3 && mkdir vjezba3/backup
+  167  ls
+  168  touch vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh
+  169  ls
+  170  ls vjezba3
+  171  cp vjezba3cp vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup
+  172  cp vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup
+  173  rm vjezba3/script.sh && ls vjezba3
+  174  mkdir vjezba3/backup/$USER
+  175  ls
+  176  mv vjezba3/backup/*.txt vjezba3/backup/$USER
+  177  mv vjezba/backup/*.txt vjezba3/backup/$USER
+  178  mv vjezba3/backup/*.txt vjezba3/backup/$USER
+  179  mv vjezba3/backup/* vjezba3/backup/$USER
+  180  mkdir vjezba4 && mkdir vjezba4/subfolder
+  181  touch vjezba4/$HOSTNAME
+  182  mv vjezba4/$HOSTNAME vjezba4/$USER
+  183  ls -l
+  184  ls vjezba4
+  185  mv vjezba4/$USER vjezba4/subfolder
+  186  rm "$(pwd) /vjezba4/subfolder/$USER"
+  187  rm "$(pwd)/vjezba4/subfolder/$USER"
+  188  mkdir vjezba5 && touch vjezba5/$RANDOM.num
+  189  ls vjezba5
+  190  cp vjezba5/*.num vjezba5/backup.num
+  191  mkdir vjezba5/backup
+  192  mv vjezba5/backup.num vjezba5/backup
+  193  pwd
+  194  mkdir home/alen/Documents/vjezba6
+  195  mkdir /home/alen/Documents/vjezba6
+  196  mkdir $HOME/Documents/vjezba6
+  197  ls -l
+  198  pwd
+  199  cd..
+  200  pwd
+  201  ls -l
+  202  cd usr
+  203  ls -l
+  204  cd..
+  205  ls
+  206  ls -l
+  207  cd usr/bin
+  208  ls -l
+  209  cd home
+  210  cd..
+  211  ls
+  212  ls -l
+  213  cd..
+  214  ls
+  215  ls -l
+  216  cd /home
+  217  ls
+  218  cd alen
+  219  ls
+  220  pwd
+  221  mkdir /home/alen/vjezba6
+  222  ls
+  223  cd vjezba6 touch OS_script.md notes.txt && mkdir scripts
+  224  cd vjezba6 && touch OS_script.md notes.txt && mkdir scripts
+  225  ls
+  226  cd..
+  227  mv OS_scripts.md scripts
+  228  cd vjezba6
+  229  ls -l
+  230  mv OS_script.md scripts
+  231  mv notes.txt todo.txt
+  232  cd scripts && rm../todo.txt
+  233  cd scripts && rm /todo.txt
+  234  r,../todo.txt
+  235  rm../todo.txt
+  236  ls
+  237  cd..
+  238  rm../todo.txt
+  239  cd scripts && rm /todo.txt
+  240  cd scripts && rm../todo.txt
+  241  cd..
+  242  cd scripts && rm../todo.txt
+  243  cd bjezbe6
+  244  cd..
+  245  ls
+  246  cd scripts
+  247  rm../todo.txt
+  248  ls
+  249  git add
+  250  ssh git@github.com:aselimovi/OS-vje-be.git
+  251  ssh
+  252  ssh git@github.com:aselimovi/OS-vje-be.git
+  253  ssh git@github.com:aselimovi
+  254  git clone git@github.com:aselimovi/OS-vje-be.git
+  255  pwd
+  256  git add
+  257  git add.
+  258  git add .
+  259  git rm --cached OS-vje-be
+  260  -f
+  261  git rm -f --cached OS-vje-be
+  262  ls -l
+  263  cd ..OS-vje-be
+  264  cd OS-vje-be
+  265  ls
+  266  git add ..
+  267  git add .
+  268  cd
+  269  git add .
+  270  cd..
+  271  ls
+  272  git add .
+  273  cd alen
+  274  mkdir OS-vjezbe
+  275  ls
+  276  pwd
+  277  ls
+  278  mkdir vjezba1 && cd vjezba1
+  279  ls
+  280  touch README.md
+  281  sl
+  282  ls
+  283  cd..
+  284  clear
+  285  mkdir vjezba2 && touch vjezba2/file.txt
+  286  ls -l
+  287  cp vjezba2/file.txt vkezba2/file_copy.txt
+  288  cp vjezba2/file.txt vjezba2/file_copy.txt
+  289  ls vjezba2
+  290  cd vjezba2 && rm file.txt && cd..
+  291  rmdir vjezba2
+  292  clear
+  293  mkdir vjezba3 && mkdir vjezba3/backup
+  294  ls
+  295  touch vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh
+  296  ls
+  297  cd..
+  298  cp vjezba3/noters.txtcp vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup
+  299  cp vjezba3/notest.txt vjezba3/todo.txt vjezba3script.sh vjezba3/backup
+  300  cp vjezba3/notest.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup
+  301  cp vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup
+  302  rm vjezbda3/script.sh && ls vjezba3
+  303  rm vjezba3/script.sh && ls vjezba3
+  304  mkdir vjezba3/backup/$USER
+  305  mv vjezba3/backup/*.txt vjezba3/backup/$USER
+  306  clear
+  307  mkdir vjezba4 && mkdir vjezba4/subfolder
+  308  touch vjezba4/$HOSTNAME
+  309  cd vjezba4
+  310  ls
+  311  cd..
+  312  mv vjezba4/$HOSTNAME vjezba4/$USER
+  313  mv vjezba4/$USER vjezba4/subfolder
+  314  ls
+  315  rm "$(pwd)/vjezba4/subfolder/$USER"
+  316  ls -l
+  317  clear
+  318  mkdir vjezba5 && touch vjezba5/$RANDOM.num
+  319  ls vjezba5
+  320  cp vjezba5/*.num vjezba5/backup.num
+  321  ls
+  322  cd vjezba5
+  323  ls
+  324  mkdir vjezba5/backup
+  325  cd..
+  326  mkdir vjezba5/backup
+  327  mv vjezba5/backup.num vjezba5/backup
+  328  clear
+  329  pwd
+  330  mkdir /mnt/c/Users/$USER/Documents/vjezba6
+  331  ls
+  332  clear
+  333  pwd
+  334  mkdir /home/alen/OS-vjezbe
+  335  mkdir /home/alen/OS-vjezba6
+  336  cd  /home/alen/OS-vjezba6 && touch OS_script.md notes.txt && mkdir scripts
+  337  ls
+  338  mv /home/alen/OS-vjezba6/OS_script.md /home/alen/OS-vjezba6/scripts
+  339  ls
+  340  mv /home/alen/OS-vjezba6/notes.txt /home/alen/OS-vjezba6/todo.txt
+  341  cd
+  342  ls
+  343  cd home/alen/OS-vjezba6/scripts && tm../todo.txt
+  344  cd home/alen/OS-vjezba6/scripts && rm../todo.txt
+  345  cd vjezba6
+  346  ls
+  347  cd /home/alen/vjezba6/scripts && rm../todo.txt
+  348  cd scripts && rm ../todo.txt
+  349  cd..
+  350  cd scripts && rm ../todo.txt
+  351  ls 
+  352  cd
+  353  ls
+  354  cd OS-vjezbe
+  355  ls
+  356  git init
+  357  git add .
+  358  git commit -m "zadaci"
+  359  pwd
+  360  git remote add origin https://github.com/aselimovi/OS-vje-be.git
+  361  git branch -M main
+  362  git push -u origin main
+  363  git pull origin main
+  364  git push origin main
+  365  git push -u origin main --force
+  366  code .
+  367  ls
+  368  cd OS-vjezbe
+  369  code .
+  370  ls -l
+  371  ls /mnt/c/user
+  372  ls -l
+  373  rmdir vjezba1 vjezba3 vjezna4 vjezba5 vjezba6
+  374  rmdir -r vjezba1 vjezba3 vjezna4 vjezba5 vjezba6
+  375  rm -r vjezba1 vjezba3 vjezna4 vjezba5 vjezba6
+  376  rm -r vjezba1
+  377  ls -l
+  378  ls
+  379  rm vjezba4
+  380  rm -r vjezba4
+  381  ls
+  382  rm -r OS-vje-be
+  383  ls
+  384  rm OS-vjezba5
+  385  rm OS-vjezba6
+  386  rm -r OS-vjezba6
+  387  rm -r OS-vjezbe
+  388  y
+  389  tree
+  390  sudo zypper install
+  391  su
+  392  ls -l
+  393  mkdir OS-Vjezbe2
+  394  cd OS_Vjezbe2
+  395  ls
+  396  cd OS-Vjezbe2
+  397  touch Vjezba2.md
+  398  cd..
+  399  git add .
+  400  git commit -m "OS-Vjezbe2"
+  401  git push
+  402  git pull OS-vje-be.git
+  403  git pull origin main -rebase
+  404  git pull origin main --rebase
+  405  git push orogin main
+  406  git push origin main --force
+  407  git pull orogin main --force
+  408  git pull origin main --force
+  409  git pull origin main --rebase
+  410  git reset --hard
+  411  git pull orogin main --rebase
+  412  ls
+  413  git add .
+  414  git commit -m
+  415  git commit -m "OS-Vjezbe2"
+  416  git push OS-Vjezbe2
+  417  git rm -r *
+  418  ls
+  419  ssh -T git@github.com
+  420  cd Os-vjezbe
+  421  cd git@github.com:aselimovi/OS-vjezbe.git
+  422  git init
+  423  ls
+  424  cd /home/alen/.git/
+  425  ls
+  426  ls -l
+  427  git commit -m "Initial commit"
+  428  git remote add origin git@github.com:aselimovi/OS-vjezbe.git
+  429  git branch -M main
+  430  git push -u origin main
+  431  git remote -v
+  432  git add .
+  433  cd
+  434  git add .
+  435  git commit -m "update"
+  436  git push
+  437  ls l
+  438  ls -l
+  439  git clone git@github.com:aselimovi/OS-vjezbe.githttps://github.com/aselimovi/OS-vjezbe.git
+  440  GIT CLONE https://github.com/aselimovi/OS-vjezbe.git
+  441  git clone https://github.com/aselimovi/OS-vjezbe.git
+  442  cd https://github.com/aselimovi/OS-vjezbe.git
+  443  ls
+  444  cd OS-vjezbe
+  445  mkdir vjezba_2
+  446  git add .
+  447  git commit - "Rijesen zadatak 1"
+  448  git commit -m "Rijesen zadatak 1"
+  449  git psuh origin main
+  450  git push origin main
+  451  git --version
+  452  clear
+  453  gh repo clone aselimovi/OS-vjezbe
+  454  clear
+  455  git clone git@github.com:aselimovi/OS-vjezbe.git
+  456  cd OS-vjezbe
+  457  ls
+  458  rm -r OS-vjezba2
+  459  rm -r vjezba1
+  460  rm -r vjezba2
+  461  rm -r vjezba3
+  462  rm -r vjezba5
+  463  rm zad1.sh
+  464  rm zad2.sh
+  465  rm zad3.sh
+  466  rm zad4.sh
+  467  rm zad5.sh
+  468  rm zad6.sh
+  469  ls
+  470  mkdir vjezba_2
+  471  ls
+  472  git add .
+  473  git commit -m "Rijesen zadatak 1"
+  474  git push
+  475  ls
+  476  pwd
+  477  cd
+  478  ls
+  479  cd OS-vjezbe
+  480  ls
+  481  mkdir vjezba_2
+  482  cd
+  483  git clone git@github.com:aselimovi/OS-vjezbe.git
+  484  cd OS-vjezbe
+  485  ls
+  486  git clone git@github.com:aselimovi/OS-vjezbe.git
+  487  pwd
+  488  touch vjezba_2/.gitkeep
+  489  git add .
+  490  ls
+  491  rm -r Os-vjezbe
+  492  rm -r OS-vjezbe
+  493  y
+  494  ls
+  495  cd
+  496  ls
+  497  rm -r OS-vjezbe
+  498  ls
+  499  git push
+  500  git clone git@github.com:aselimovi/OS-vjezbe.git
+  501  ls
+  502  cd OS-vjezbe/
+  503  ls
+  504  mkdir vjezba_2
+  505  ls
+  506  touch vjezba_2/.gitkeep
+  507  git add .
+  508  git commit -m "Rijesen zadatak 1"
+  509  git push
+  510  clear
+  511  cd
+  512  ls
+  513  cd OS-vjezbe/
+  514  ls
+  515  mkdir vjezba_2/data
+  516  mkdir vjezba_2/backup
+  517  ls
+  518  ls -l
+  519  touch vjezba_2vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  520  touch vjezba_2 vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  521  ls
+  522  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+  523  ls vjezba_2/
+  524  echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css
+  525  echo 'VJEZBE=OS' > vjezba_2/data/.env
+  526  ls
+  527  ls vjezba_2/
+  528  cat vjezba_2/data/script.js
+  529  cat vjezba_2/data/style.css
+  530  cat vjezba_2/data/.env
+  531  CLEAR
+  532  clear
+  533  ls
+  534  cd vjezba_2
+  535  ls
+  536  cp -rv data/. backup
+  537  cd data
+  538  ls
+  539  ls -laS ../backup
+  540  rm -vi script.js sytle.css
+  541  rm -vi script.js style.css
+  542  ls
+  543  ls -lo
+  544  cp -rnv ../backup/..
+  545  cp -rnv ../backup/. .
+  546  ls -Alt1
+  547  tree -a
+  548  CLEAR
+  549  clear
+  550  cd
+  551  čs
+  552  ls
+  553  clear
+  554  ls -laS
+  555  ls -lhS
+  556  tree -a
+  557  git add .
+  558  git commit -m "rijesen zadatak 5"
+  559  git push
+  560  git pull origin main --allow-unrelated-histories
+  561  git push origin main
+  562  cd ~/OS-vjezbe
+  563  git status
+  564  touch vjezba_2/data/script.js
+  565  touch vjezba_2/data/style.css
+  566  touch vjezba_2/data/.env
+  567  touch vjezba_2/backup/.gitkeep
+  568  git add .
+  569  git status
+  570  git commit -m
+  571  git commit -m "Dodan vjezba_2 direktorij i datoteke"
+  572  git push origin main
+  573  clear
+  574  cd
+  575  ls -laS
+  576  ls -lhS
+  577  tree -a
+  578  git add .
+  579  git commit -m "Rjesen zadatak 5"
+  580  git push
+  581  clear
+  582  ls -laS
+  583  ls -lhS
+  584  tree -a
+  585  ls        
+  586  cd OS-vjezbe
+  587  git add .
+  588  git commit -m "Rjesen zadatak 5"
+  589  git pull origin main --rebase
+  590  git push origin main
+  591  git status
+  592  git add .
+  593  git commit -m "Rjesen zadatak 5"
+  594  git pull origin main --allow-unrelated-histories
+  595  git push origin main
+  596  git add .
+  597  git commit -m "Rijesen zadatak 5"
+  598  git pull origin main
+  599  git push origin main
+  600  history
+  601  cd
+  602  clear
+  603  ls -laS
+  604  ls -lhS
+  605  tree -a
+  606  clear
+  607  history > vjezba_2_history.txt
